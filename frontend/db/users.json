@@ -1,0 +1,25 @@
+{
+    "users":
+    [
+        {
+            "email":"Alice@naf.com",
+            "password": "1"
+        },
+        {
+            "email":"Bob@naf.com",
+            "password": "1"
+        },
+        {
+            "email":"Cat@naf.com",
+            "password": "1"
+        },
+        {
+            "email":"Dog@naf.com",
+            "password": "1"
+        },
+        {
+            "email":"a@a.com",
+            "password": "1"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "host": "localhost",
+  "devURL": "http://localhost:3002",
+  "env": "development",
+  "dbURL": "mongodb+srv://uicexam:s28gKrd@iJY9XNn@cluster0-2uaaq.mongodb.net/test?retryWrites=true&w=majority",
+  "secret": "This is isaac secret for JWT",
+  "types": [1, 2, 3],
+  "numbers": [10, 10, 10]
+}

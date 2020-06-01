@@ -1,0 +1,35 @@
+.output {
+
+  background: linear-gradient(to right, #941b9c, #257ac0);
+}
+
+.form-signin-heading {
+  text-align: center;
+  color: rgb(172, 172, 250);
+  height: 50px;
+
+
+}
+
+.form-signin {
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  padding-bottom: 250px;
+
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 50%;
+}
+
+h1 {
+  font-size: 20px;
+  color: rgb(172, 172, 250);
+
+
+}

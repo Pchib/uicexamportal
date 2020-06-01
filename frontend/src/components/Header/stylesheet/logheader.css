@@ -1,0 +1,28 @@
+.container1 {
+    min-height: 14rem;
+    background-color: rgb(136, 0, 255);
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-bottom: 50px;
+      box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.578);
+
+
+}
+
+.container2 {
+    min-height: 12rem;
+    background-color: rgba(0, 0, 0, 0.755);
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+
+
+}
+
+.container3 {
+    min-height: 10rem;
+    background-color: rgb(7, 110, 255);
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+
+
+}
