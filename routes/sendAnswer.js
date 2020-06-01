@@ -234,7 +234,7 @@ function sendAnswer(req, res) {
           status: true,
         });
         if (score > 4) {
-          mailer(email, name, examque, examanswer,score, subject, score);
+          mailer(email, name, examque, examanswer,score, subject,Class);
         } else if (score < 5) {
           mailer2(email, name, examque, examanswer, score, subject, Class);
         }
