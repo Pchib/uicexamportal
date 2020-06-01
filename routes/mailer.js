@@ -12,8 +12,8 @@ const mailer=(email, name,exam,answer,score,subject,Class)=>{
 let transport = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "uicsoft1@gmail.com",
-    pass: "Isaac1love",
+    user :process.env.EMAIL,
+    pass: process.env.PASSWORD
   }})
  let mailOption = {
    from: "uicsoft1@gmail.com",
@@ -46,8 +46,8 @@ const mailer2 = (email, name, exam, answer, score, subject, Class) => {
   let transport = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "uicsoft1@gmail.com",
-      pass: "Isaac1love",
+      user :process.env.EMAIL,
+      pass: process.env.PASSWORD
     },
   });
   let mailOption = {
