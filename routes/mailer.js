@@ -20,7 +20,7 @@ let transport = nodemailer.createTransport({
    to: `ugwuisaaciu@gmail.com,${email}`,
    subject: `Result of ${name} , Subject: ${subject}, Class:  ${Class}`,
    html: `<p><h1>${score}${"    "}/10</h1></p>
-  <p> <h2>Thanks For taking the exam</h2></p>
+  <p> <h2>Thanks For taking the test</h2></p>
             <h3><p> Questions </p></h3>
             <h5><p> ${exam}</p></h5>
             <h3><p> Answers </p></h3>
@@ -56,7 +56,7 @@ const mailer2 = (email, name, exam, answer, score, subject, Class) => {
     email,
     subject: `Result of ${name} , Subject: ${subject}, Class:  ${Class}`,
     html: `<p><h1>${score}${"    "}/10</h1></p>
-  <p> <h2>Thanks For taking the exam</h2></p>
+  <p> <h2>Thanks For taking the test</h2></p>
             <h3><p> You have to Score above average to see the answers to the questions </p></h3>
           <h4> <p>Kindly study harder and try agin</p></h4>
 `,
