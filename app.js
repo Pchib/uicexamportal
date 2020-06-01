@@ -14,7 +14,7 @@ mongoose.connect(config.dbURL, { useNewUrlParser: true, useCreateIndex: true, },
       console.log(`connect mongodb success`);
   });
 
-
+  const port = process.env.PORT||3002;
 
 // Load passport strategies
 app.use(passport.initialize());
@@ -81,6 +81,4 @@ app.route('/api/exam')
 //
 // })
 
-app.listen(3002, function(){
-    console.log('app is listening at port 3002');
-})
+app.listen(port, () => console.log(`Example app listening on port${port} !`))
