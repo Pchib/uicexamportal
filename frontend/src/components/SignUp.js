@@ -53,7 +53,7 @@ const SignUp = ({history, prompt, dispatch})=>{
         }
         console.log(userInfo);
         
-        fetch("http://localhost:3002/auth/signup", {
+        fetch("http://uicexamportal.herokuapp.com/auth/signup", {
                 method: 'POST',
                 body: JSON.stringify(userInfo),
                 headers: {
