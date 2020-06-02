@@ -8,7 +8,9 @@ export default class logHeader extends Component {
       <div className="container1">
         <div className="container2">
           <div className="container3">
-            
+            <div className="beflogo mb-2">
+              <img className="logo" src={image} alt="sjk" />
+            </div>
             <h2 className="form-signin-heading">Online Exam Portal</h2>
 
             <div className="inner">
