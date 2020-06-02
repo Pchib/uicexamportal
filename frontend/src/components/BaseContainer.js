@@ -162,7 +162,7 @@ class Base extends Component {
             className="ml-3 mt-3"
             style={{ float: "left", position: "absolute" }}
           >
-            Welcome {name} !{" "}
+            Welcome<p> {name} !</p>{" "}
           </div>
           <div className="beflogo mb-2">
             {" "}
