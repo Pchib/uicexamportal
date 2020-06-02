@@ -30,11 +30,13 @@ text-align: center;
 }
 .logo{
   width: 50px;
+  height: 30px;
   border-radius: 100%;
   display: flex;
 }
 
 .beflogo {
+  height:30px;
 display: flex;
 justify-content: center;
 
