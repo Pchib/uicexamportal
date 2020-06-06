@@ -5,7 +5,7 @@ import ScrollIntoView from "react-scroll-into-view";
 import { connect } from "react-redux";
 
 const IndicatorView = ({ id, index, type, answer }) => {
-  const flag = answer === "" ? "unsolved" : "finished";
+  const flag = answer === "" ?( "unsolved") :(<i style={{color : "green", fontSize : "18px"}} className="fa fa-check-circle"></i>);
   const targetEle = "#question" + type + "-" + id;
   return (
     <div>
